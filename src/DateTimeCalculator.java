@@ -14,9 +14,9 @@ public class DateTimeCalculator {
     * */
     public String CalculateDuration(String startDateTime){
         String duration = "";
-        SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy hh:mm aa");
         Date endDate = new Date();
-        DateTimeFormatter df = DateTimeFormat.forPattern("dd-MMM-yyyy hh:mm");
+        DateTimeFormatter df = DateTimeFormat.forPattern("dd-MMM-yyyy hh:mm aa");
         DateTime s = df.parseDateTime(startDateTime);
         DateTime e = df.parseDateTime(format.format(endDate));
         Period p = new Period(s,e);
@@ -41,7 +41,7 @@ public class DateTimeCalculator {
     * */
     public String CompareTwoDates(String startDateTime, String endDateTime){
         String duration = "";
-        DateTimeFormatter df = DateTimeFormat.forPattern("dd-MMM-yyyy hh:mm");
+        DateTimeFormatter df = DateTimeFormat.forPattern("dd-MMM-yyyy hh:mm aa");
         DateTime s = df.parseDateTime(startDateTime);
         DateTime e = df.parseDateTime(endDateTime);
         Period p = new Period(s,e);
