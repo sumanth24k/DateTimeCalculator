@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbaad9b7-b565-4cc0-a9de-93ecdb0c1fee" name="Changes" comment="Added the project">
+    <list default="true" id="fbaad9b7-b565-4cc0-a9de-93ecdb0c1fee" name="Changes" comment="Added joda time library to the project">
+      <change afterPath="$PROJECT_DIR$/src/DateTimeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DateTimeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DateTimeCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeCalculator.iml" afterDir="false" />
     </list>
@@ -10,6 +12,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -17,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28xWKD1JVF6bXGwIOE0AgFHydcg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +44,30 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager" selected="Java Scratch.Main">
+    <configuration name="Joda" type="JarApplication">
+      <option name="JAR_PATH" value="D:/jar files/joda-time-2.10.14.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\Sumanth\JavaProjects\DateTimeCalculator\DateTimeCalculator" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="DateTimeCalculator" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="Java Scratch" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeMain" />
+      <module name="DateTimeCalculator" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/DateTimeMain.java" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.Joda" />
+      <item itemvalue="Java Scratch.Main" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652158888702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added joda time library to the project">
+      <created>1652159444292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652159444292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the project" />
+    <MESSAGE value="Added joda time library to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added joda time library to the project" />
   </component>
 </project>
